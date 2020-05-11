@@ -2,8 +2,6 @@
 
 from setuptools import setup
 
-from myrsa import VERSION
-
 
 try:
     long_description = open('README.md', encoding='utf8').read()
@@ -13,7 +11,7 @@ except Exception as e:
 
 setup(
     name='myrsa',
-    version=VERSION,
+    version='0.0.1',
     description='Simple use of RSA for asymmetric encryption and signature | 简单使用 rsa 进行非对称加密和签名',
     long_description=long_description,
     long_description_content_type="text/markdown",

@@ -9,8 +9,6 @@ from rsa import common, transform, core
 from rsa.pkcs1 import _pad_for_signing
 
 
-VERSION = '0.0.1'
-
 
 def newkeys(nbits=128):
     if nbits > 4096:
